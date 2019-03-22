@@ -1,0 +1,4 @@
+(*Linux parlaklığı ayarlamak için aşağıdaki adımları izle*)
+sudo nano/etc/default/grub
+GRUB_CMDLINE _LINUX _DEFAULT="quiet splash acpi_backlight=vendor"
+sudo reboot
